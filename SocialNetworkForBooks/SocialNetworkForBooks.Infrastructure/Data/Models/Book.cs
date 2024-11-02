@@ -7,6 +7,7 @@ namespace SocialNetworkForBooks.Infrastructure.Data.Models
     public class Book
     {
         [Key]
+        [Comment("Unique identifier for each book.")]
         public int Id { get; set; }
 
         [Required]
@@ -29,11 +30,10 @@ namespace SocialNetworkForBooks.Infrastructure.Data.Models
         [Comment("URL to the cover image of the book.")]
         public string? CoverImageUrl { get; set; }
 
-        // Navigation properties
         public IList<BookGenre> BookGenres { get; set; } = new List<BookGenre>();
         public IList<Review> Reviews { get; set; } = new List<Review>();
         public IList<Rating> Ratings { get; set; } = new List<Rating>();
-        public IList<UserBook> UserBooks { get; set; } = new List<UserBook>();
+        public IList<UserLibrary> UserBooks { get; set; } = new List<UserLibrary>();
     }
 }
 

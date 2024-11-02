@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SocialNetworkForBooks.Infrastructure\SocialNetworkForBooks.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
