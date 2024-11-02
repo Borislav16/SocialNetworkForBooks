@@ -2,9 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using SocialNetworkForBooks.Infrastructure.Data;
 
-namespace SocialNetworkForBooks.Data.Migrations
+namespace SocialNetworkForBooks.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(SocialNetworkForBooksDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
