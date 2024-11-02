@@ -15,5 +15,10 @@
 
         public const int RatingMinValue = 1;
         public const int RatingMaxValue = 5;
+
+        public const int UserFirstNameMinLength = 2;
+        public const int UserFirstNameMaxLength = 50;
+        public const int UserLastNameMinLength = 2;
+        public const int UserLastNameMaxLength = 50;
     }
 }
