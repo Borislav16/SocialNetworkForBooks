@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace SocialNetworkForBooks.Data.Migrations
+namespace SocialNetworkForBooks.Infrastructure.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
